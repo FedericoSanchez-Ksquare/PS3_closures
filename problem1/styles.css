@@ -1,0 +1,209 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url("images/Ejercicio1Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+    box-shadow: 5px 8px #88888849;
+}
+.triple-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 3%;
+    margin-left: 20%;
+    height: 90%;
+    width: 60%;
+    
+}
+
+.sedans{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 70%;
+    width: 100%;
+    background-color: #e28525;
+    border-radius: 10px 0 0 10px;
+}
+.sedans-space{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    margin-top: 10%;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+.sedans-main-text{
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.9);
+    
+
+}
+.sedans-p{
+    margin-top: 10%;
+    font-size: 17px;
+    color:rgb(255,255,255,0.8);
+}
+.sedan-button-space{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    justify-content: end;
+}
+.sedan-image{
+    
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.button-sedan{
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 60px;
+    border: none;
+    width: 55%;
+    font-weight: bolder;
+    color: #e28525;
+
+}
+.suvs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: #016972;
+}
+.suvs-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    margin-top: 10%;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.suvs-main-text {
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.9);
+
+
+}
+
+.suvs-p {
+    margin-top: 10%;
+    font-size: 17px;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.suvs-button-space {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    justify-content: end;
+}
+
+.suvs-image {
+
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.button-suvs {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 60px;
+    border: none;
+    width: 55%;
+    font-weight: bolder;
+    color: #016972;
+
+}
+.luxury {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    background-color: #00403f;
+    border-radius: 0 10px 10px 0;
+}
+.luxury-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    margin-top: 10%;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+
+.luxury-main-text {
+    font-size: 28px;
+    color: rgb(255, 255, 255, 0.9);
+
+
+}
+
+.luxury-p {
+    margin-top: 10%;
+    font-size: 17px;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.luxury-button-space {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    justify-content: end;
+}
+
+.luxury-image {
+
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.button-luxury {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 60px;
+    border: none;
+    width: 55%;
+    font-weight: bolder;
+    color: #016972;
+
+}
