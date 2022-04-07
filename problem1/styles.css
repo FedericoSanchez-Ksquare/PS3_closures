@@ -27,6 +27,7 @@ body {
     margin-left: 20%;
     height: 90%;
     width: 60%;
+    min-width: 200px;
     overflow: hidden;
     
 }
@@ -47,6 +48,7 @@ body {
     margin-top: 10%;
     margin: auto;
     width: 80%;
+    min-width: 200px;    
     text-align: left;
     overflow: hidden;
 }
@@ -69,7 +71,6 @@ body {
     justify-content: end;
 }
 .sedan-image{
-    
     height: 50px;
     width: 50px;
     padding-bottom: 10%;
@@ -78,7 +79,7 @@ body {
 .button-sedan{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5%;
     border-radius: 60px;
     border: none;
     width: 55%;
@@ -89,7 +90,7 @@ body {
 .suvs {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     height: 70%;
     width: 100%;
     background-color: #016972;
@@ -101,6 +102,7 @@ body {
     margin-top: 10%;
     margin: auto;
     width: 80%;
+    min-width: 200px;
     text-align: left;
     overflow: hidden;
 }
@@ -108,7 +110,7 @@ body {
 .suvs-main-text {
     font-size: 40px;
     color: rgb(255, 255, 255, 0.9);
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 .suvs-p {
@@ -134,10 +136,9 @@ body {
 }
 
 .button-suvs {
-
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5%;
     border-radius: 60px;
     border: none;
     width: 55%;
@@ -148,7 +149,7 @@ body {
 .luxury {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     height: 70%;
     width: 100%;
     background-color: #00403f;
@@ -161,6 +162,7 @@ body {
     margin-top: 10%;
     margin: auto;
     width: 80%;
+    min-width: 200px;
     text-align: left;
     overflow: hidden;
 }
@@ -168,14 +170,14 @@ body {
 .luxury-main-text {
     font-size: 40px;
     color: rgb(255, 255, 255, 0.9);
-    padding-bottom: 10%;
+    padding-bottom: 4%;
 }
 
 .luxury-p {
     margin-top: 10%;
     font-size: 22px;
     color: rgb(255, 255, 255, 0.8);
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .luxury-button-space {
@@ -198,7 +200,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5%;
     border-radius: 60px;
     border: none;
     width: 55%;
