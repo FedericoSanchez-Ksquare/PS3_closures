@@ -7,39 +7,36 @@ In the inner function, we must check if the guess is equal to the tail value you
 if guess is less than tail you must return ‘The tail is above’ and if guess is higher than ‘The tail is below’. 
 Finally, If the amount of function calls to the inner function is equal to the number in amountOfTries then you must return: ‘You have no tries left’  */
 
-function donkeyGame(value){
-    let amountOfTries = value;
-    let tail = Math.floor(Math.random() * 10)+1;
-    let tries = 0;
-    do{
-        tries = tries +1;
-        console.log(tail)
-        console.log(tries + " number of tries")
-        if(tries <= amountOfTries)
-        {
-            return inner
-        }
-        else{
-            console.log("you are out of tries")
-        }
+function donkeyGame(amountOfTries) {
+  let tail = Math.floor(Math.random() * 10) + 1;
+  let tries = 0;
 
-    }while(amountOfTries >= tries)
-
-
-
-    function inner(guess){
-        if(guess == tail){
-            console.log("You hit the mark!")
-            tries = tries +1;
-        }
-        else if(guess < tail){
-            console.log("The tail is above")
-        }else if(guess <= 0){
-            console.log("input a positive number")
-        }else{
-            console.log("the tail is below")
-        }
+  return inner;
+  function inner(guess) {
+    while (tries <= amountOfTries) {
+      tries++;
+      console.log("tries " + tries);
+      console.log("tail = " + tail);
+      console.log("guess = " + guess);
+      if (guess === tail) {
+        return "You hit the mark!";
+      } else if (guess < tail) {
+        return "The tail is above";
+      } else {
+        return "the tail is below";
+      }
     }
+    return "Out of tries";
+  }
 }
 
-donkeyGame(5)(6)
+//donkeyGame(5)(4)
+//let inputTries = 2;
+const amount = donkeyGame(3);
+
+console.log(amount(10));
+console.log(amount(4));
+console.log(amount(3));
+console.log(amount(2));
+console.log(amount(2));
+console.log(amount(2));
