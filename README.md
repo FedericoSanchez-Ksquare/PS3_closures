@@ -1,7 +1,7 @@
 # PS3_closures
 ## Promblem 2
 
-Question 1
+### Question 1
 
 ('bar:', bar) output: bar: undefined 
 (foo, bar) output: 1, 15
