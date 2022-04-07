@@ -18,15 +18,15 @@ output: 10
 
 ### Question 4
 
-(foo()) output: I'm a bar function
+output: I'm a bar function
 
 ### Question 5
 
-greeting() output: error
+output: error
 
 ### Question 6 
 
-('foo:', foo) output: 5, 5
+output: 5, 5
 
 ### Question 7
 
