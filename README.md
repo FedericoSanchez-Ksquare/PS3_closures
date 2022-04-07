@@ -3,8 +3,8 @@
 
 ## Question 1
 
-('bar:', bar) output: bar: undefined 
-(foo, bar) output: 1, 15
+('bar:', bar) ´output: bar: undefined´
+(foo, bar) ´output: 1, 15´
 
 ## Question 2
 
